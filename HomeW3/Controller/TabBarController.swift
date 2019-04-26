@@ -17,18 +17,22 @@ class TabBarController: UITabBarController {
     
     func makeTabBarController(){
         let firstViewController = FirstViewController()
-        firstViewController.tabBarItem.title = "First"
+        firstViewController.tabBarItem.title = "Table"
         firstViewController.tabBarItem.image = UIImage(named: "apple.png")
         
         let secondViewController = SecondViewController()
-        secondViewController.tabBarItem.title = "Second"
+        secondViewController.tabBarItem.title = "Collection"
         secondViewController.tabBarItem.image = UIImage(named:  "twitter.png")
         
         let thirdViewController = ThirdViewController()
-        thirdViewController.tabBarItem.title = "Third"
+        thirdViewController.tabBarItem.title = "Scroll"
         thirdViewController.tabBarItem.image = UIImage(named: "dashboard.png")
         
-        viewControllers = [firstViewController,secondViewController,thirdViewController]
+        let fourthViewController = FourthViewController()
+        fourthViewController.tabBarItem.title = "Zoom"
+        fourthViewController.tabBarItem.image = UIImage(named: "for_you.png")
+        
+        viewControllers = [firstViewController,secondViewController,thirdViewController,fourthViewController]
         
     }
 }

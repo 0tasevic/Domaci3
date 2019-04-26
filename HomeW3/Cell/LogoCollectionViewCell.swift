@@ -16,5 +16,5 @@ class LogoCollectionViewCell: UICollectionViewCell {
         super.awakeFromNib()
         self.layer.cornerRadius = self.layer.bounds.width 
     }
-
+    
 }

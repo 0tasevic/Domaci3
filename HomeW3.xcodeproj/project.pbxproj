@@ -11,6 +11,8 @@
 		0721DE7422736A8C00577C06 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0721DE7222736A8C00577C06 /* MyCollectionViewCell.swift */; };
 		0721DE7C2273899600577C06 /* LogoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0721DE7A2273899600577C06 /* LogoCollectionViewCell.swift */; };
 		0721DE7D2273899600577C06 /* LogoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0721DE7B2273899600577C06 /* LogoCollectionViewCell.xib */; };
+		0721DE812273AFC700577C06 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0721DE7F2273AFC700577C06 /* FourthViewController.swift */; };
+		0721DE822273AFC700577C06 /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0721DE802273AFC700577C06 /* FourthViewController.xib */; };
 		074B8C19227097D70092E7C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074B8C18227097D70092E7C3 /* AppDelegate.swift */; };
 		074B8C23227097D90092E7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 074B8C22227097D90092E7C3 /* Assets.xcassets */; };
 		074B8C26227097D90092E7C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 074B8C24227097D90092E7C3 /* LaunchScreen.storyboard */; };
@@ -32,6 +34,8 @@
 		0721DE7222736A8C00577C06 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		0721DE7A2273899600577C06 /* LogoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoCollectionViewCell.swift; sourceTree = "<group>"; };
 		0721DE7B2273899600577C06 /* LogoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogoCollectionViewCell.xib; sourceTree = "<group>"; };
+		0721DE7F2273AFC700577C06 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		0721DE802273AFC700577C06 /* FourthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
 		074B8C15227097D70092E7C3 /* HomeW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeW3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		074B8C18227097D70092E7C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		074B8C22227097D90092E7C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 				074B8C33227099AD0092E7C3 /* SecondViewController.xib */,
 				074B8C36227099CF0092E7C3 /* ThirdViewController.swift */,
 				074B8C37227099CF0092E7C3 /* ThirdViewController.xib */,
+				0721DE7F2273AFC700577C06 /* FourthViewController.swift */,
+				0721DE802273AFC700577C06 /* FourthViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -189,6 +195,7 @@
 				074B8C642270A6510092E7C3 /* TableViewCell.xib in Resources */,
 				074B8C3D2270A0FA0092E7C3 /* FirstViewController.xib in Resources */,
 				0721DE7D2273899600577C06 /* LogoCollectionViewCell.xib in Resources */,
+				0721DE822273AFC700577C06 /* FourthViewController.xib in Resources */,
 				074B8C23227097D90092E7C3 /* Assets.xcassets in Resources */,
 				074B8C6A2271B49F0092E7C3 /* SecondTableViewCell.xib in Resources */,
 				074B8C39227099CF0092E7C3 /* ThirdViewController.xib in Resources */,
@@ -210,6 +217,7 @@
 				074B8C31227098C80092E7C3 /* FirstViewController.swift in Sources */,
 				074B8C38227099CF0092E7C3 /* ThirdViewController.swift in Sources */,
 				074B8C632270A6510092E7C3 /* TableViewCell.swift in Sources */,
+				0721DE812273AFC700577C06 /* FourthViewController.swift in Sources */,
 				074B8C2F227098630092E7C3 /* TabBarController.swift in Sources */,
 				074B8C692271B49F0092E7C3 /* SecondTableViewCell.swift in Sources */,
 				074B8C19227097D70092E7C3 /* AppDelegate.swift in Sources */,
@@ -353,6 +361,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 936J3XZXG4;
 				INFOPLIST_FILE = HomeW3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -371,6 +380,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 936J3XZXG4;
 				INFOPLIST_FILE = HomeW3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
